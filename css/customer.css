@@ -1,0 +1,67 @@
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* CSS Variables for easy theming */
+:root {
+  --color-primary: #246dec;
+  --color-secondary: #f5b74f;
+  --color-success: #367952;
+  --color-danger: #cc3c43;
+  --color-text: #666666;
+  --color-sidebar-bg: #090c14f1;
+  --color-sidebar-hover: rgba(27, 79, 130, 0.6);
+  --font-family-base: 'Poppins', sans-serif;
+  --box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: var(--font-family-base);
+  font-size: 1rem; /* 16px */
+  background-color: #e6e8ed;
+  color: var(--color-text);
+  overflow-y: scroll;
+}
+
+/* Navbar styles */
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    background: #e6e8ed;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+nav ul li{
+    /* line-height: 80px; */
+    margin: 0 5px;
+    list-style: none;
+}
+
+nav ul li a.lnk{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 24px;
+    /* background: #000; */
+    border: 2px solid #a9abae;
+    border-radius: 8px;
+}
+
+li a.lnk:hover{
+    /* border: 2px solid #246dec; */
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #347bf633;
+}
