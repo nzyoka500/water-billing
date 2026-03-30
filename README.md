@@ -32,7 +32,6 @@ Built with a focus on simplicity and efficiency, WBCMS helps utility providers m
 *   **System Settings:** Configure utility rates and system-wide parameters.
 *   **Reporting:** Generate detailed reports for administrative review.
 
----
 
 ## Tech Stack
 
